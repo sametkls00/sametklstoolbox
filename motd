@@ -1,0 +1,32 @@
+cat > motd << 'EOL'
+Welcome to SametKLS Toolbox! 🛠️
+═══════════════════════════════════════════════
+
+ ________  ________  _____ ______   ________ _________        ___  __    ___       ________      
+|\   ____\|\   __  \|\   _ \  _   \|\  _____\\___   ___\    |\  \|\  \ |\  \     |\   ____\     
+\ \  \___|\ \  \|\  \ \  \\\__\ \  \ \  \__/\|___ \  \_|    \ \  \/  /|\ \  \    \ \  \___|_    
+ \ \_____  \ \   __  \ \  \\|__| \  \ \   __\    \ \  \      \ \   ___  \ \  \    \ \_____  \   
+  \|____|\  \ \  \ \  \ \  \    \ \  \ \  \_|     \ \  \      \ \  \\ \  \ \  \____\|____|\  \  
+    ____\_\  \ \__\ \__\ \__\    \ \__\ \__\       \ \__\      \ \__\\ \__\ \_______\____\_\  \ 
+   |\_________\|__|\|__|\|__|     \|__|\|__|        \|__|       \|__| \|__|\|_______|\_________\
+   \|_________|                                                                      \|_________|
+                                                                                    
+
+Available Tools:
+- Network Analysis: tcpdump, nmap, iperf3
+- Kubernetes Tools: kubectl, k9s, helm, stern
+- Database Clients: mysql, postgresql
+- And many more...
+
+Quick Start:
+1. Type 'k9s' for Kubernetes cluster management
+2. Use 'stern' for log tailing across pods
+3. Network debugging with 'tcpdump' or 'nmap'
+
+Issues or Suggestions? 
+Visit: https://github.com/sametkls00/sametklstoolbox
+
+═══════════════════════════════════════════════
+Type 'help' for a list of available commands
+Happy Debugging! 🚀
+EOL

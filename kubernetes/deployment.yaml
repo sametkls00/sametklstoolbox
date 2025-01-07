@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sametklstoolbox-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sametklstoolbox
+  template:
+    metadata:
+      labels:
+        app: sametklstoolbox
+    spec:
+      containers:
+      - name: sametklstoolbox
+        image: sametkeles/sametklstoolbox:latest
+        command: ["sleep"]
+        args: ["infinity"]
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
