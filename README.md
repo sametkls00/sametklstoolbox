@@ -1,6 +1,6 @@
 # Sametklstoolbox
 
-A comprehensive network and Kubernetes debugging toolkit based on Alpine Linux, designed for troubleshooting in container environments.
+A comprehensive network and Kubernetes debugging toolkit based on Alpine Linux (x86_64).
 
 ## 🛠 Available Tools
 
@@ -122,6 +122,9 @@ htop
 iperf3 -s  # Server mode
 iperf3 -c <server-ip>  # Client mode
 ```
+
+## Note
+This image is built for x86_64 (amd64) architecture and is specifically designed to run on x86_64 Kubernetes clusters.
 
 ## 🔗 Links
 
